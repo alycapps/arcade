@@ -1,0 +1,41 @@
+body {
+    background-color:black;
+    text-align: center;
+}
+
+.container {
+    background-image: url("../images/curtains.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+.container2 {
+    padding: 70px;
+}
+
+h1 {
+    font-size: 28px;
+    color: rgb(2, 133, 167);
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    color: rgb(67, 150, 223);
+}
+
+p {
+    color: darkslategray;
+}
+
+#wordlocation {
+    color: darkred;
+    font-size: 25px;
+}
+
+/* Teal 0285A7 -- 2 133 167
+Blue 4396DF -- 67 150 223
+Goldenrod DAA520 -- 218 165 32
+Grey 807E66 -- 128 126 102
+Yellow DAC800 -- 218 200 0 */
