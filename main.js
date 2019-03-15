@@ -6,7 +6,7 @@ $( document ).ready(function() {
     },
     {
       name: "Crystals Collector",
-      source: "./crystals"
+      source: "./crystals/index.html"
     }
   ];
 
