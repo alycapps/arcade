@@ -7,6 +7,10 @@ $( document ).ready(function() {
     {
       name: "Crystals Collector",
       source: "./crystals/index.html"
+    },
+    {
+      name: "Trivia Game",
+      source: "./trivia/index.html"
     }
   ];
 

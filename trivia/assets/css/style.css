@@ -1,0 +1,45 @@
+body {
+    background-image: url("../images/redstripes.png");
+    color: white;
+    font-family: 'Merienda', cursive, 'Pacifico', cursive, 'Bree Serif', serif;
+}
+
+h1 {
+     color: rgb(245, 208, 3);
+}
+
+.btn {
+    margin: 1px;
+}
+
+.playspace {
+    background-image: url("../images/bluestarts.jpg");
+
+}
+
+.timerlocation {
+    background: rgb(38,58,117);
+}
+
+.title {
+    background: rgb(38,58,117);
+}
+
+.answerlocation {
+    /* background: rgb(38,58,117); */
+}
+
+.questionlocation {
+    background: rgb(38,58,117);
+}
+
+img {
+    height: 300 px;
+    
+}
+
+/* 
+Google fonts 
+font-family: 'Pacifico', cursive;
+font-family: 'Bree Serif', serif;
+font-family: 'Merienda', cursive; */
