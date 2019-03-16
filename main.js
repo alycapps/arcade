@@ -11,6 +11,10 @@ $( document ).ready(function() {
     {
       name: "Trivia Game",
       source: "./trivia/index.html"
+    },
+    {
+      name: "Psychic Game",
+      source: "./psychic/index.html"
     }
   ];
 
