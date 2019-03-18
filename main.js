@@ -21,9 +21,17 @@ $( document ).ready(function() {
   console.log(games);
 
   for(let i=0; i<games.length; i++) {
-    var card=$("<a href=" + games[i].source + ">");
-    card.append("<div class='card'> <div class='card-body'>" + games[i].name);
-    $(".cardloc").append(card);
+    var myCol= $("<div class='col-md-4'>");
+    var gameCard=$("<a href=" + games[i].source + ">");
+    var card = $("<div>");
+    card.addClass("card");
+    var body = $("<div>");
+    body.addClass("card-body");
+    body.text(games[i].name);
+    card.append(body);
+    gameCard.append(card);
+    myCol.append(gameCard)
+    $("#cardloc").append(myCol);
   }
 
 });
